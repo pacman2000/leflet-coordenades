@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+body{
+    /* background: url('../img/colors2.jpg'); 
+      background-size: cover;   */ 
+    background-color: rgb(195, 252, 233);   
+    max-width: 3000px;
+    max-height: 2000px;
+    margin: 8px;
+}
+h1{
+    color: rgb(78, 117, 104);
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#map{
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-45%);     
+    outline: none;
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    cursor: grab;
+    overflow: hidden;  
+    touch-action: pinch-zoom;
+}
